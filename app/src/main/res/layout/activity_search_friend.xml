@@ -31,7 +31,7 @@
         android:padding="@dimen/_10sdp"
         android:text="@string/find_friends_string"
         android:textColor="@color/white"
-        android:textSize="@dimen/_18sdp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/edit_search"
         app:layout_constraintEnd_toEndOf="parent"

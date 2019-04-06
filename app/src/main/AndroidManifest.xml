@@ -22,38 +22,22 @@
                 android:value=".LoggedInActivity" />
         </activity>
 
-        <activity android:name=".HunterStatsActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".FugitiveStatsActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".StatsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoggedInActivity" />
         </activity>
 
         <activity android:name=".SearchFriendActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MyFriendsActivity" />
         </activity>
         <activity android:name=".MyFriendsActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoggedInActivity" />
         </activity>
-
-        <activity android:name=".ForgottenPassword" />
-        <activity android:name=".EditProfile" />
 
         <activity android:name=".LoggedInActivity" />
         <activity android:name=".RegisterActivity">
@@ -64,7 +48,6 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -80,7 +63,6 @@
 
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 

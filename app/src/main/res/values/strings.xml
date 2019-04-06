@@ -23,8 +23,7 @@
     <string name="my_profile_string">My Profile</string>
     <string name="update_profile_string">Update profile</string>
     <string name="delete_profile_string">Delete profile</string>
-    <string name="stat_title_hunter">Your stats - Hunter</string>
-    <string name="stat_title_fugitive">Your stats - Fugitive</string>
+    <string name="stat_title_string">Your stats</string>
     <string name="search_username">Search for username</string>
     <string name="find_friends_string">Find friends</string>
     <string name="new_password_string">New Password</string>

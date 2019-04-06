@@ -39,6 +39,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/viewTop"
         android:text="@string/my_profile_string"
+        android:fontFamily="@font/moderat_regular"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         />
 
     <ImageButton

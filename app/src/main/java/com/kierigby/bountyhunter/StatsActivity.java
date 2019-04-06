@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class FugitiveStatsActivity extends AppCompatActivity {
+public class StatsActivity extends AppCompatActivity {
 
     private ArrayList<String> mStatName = new ArrayList<>();
     private ArrayList<String> mActualStat = new ArrayList<>();
@@ -15,7 +15,7 @@ public class FugitiveStatsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fugitive_stats);
+        setContentView(R.layout.activity_stats);
         initStatList();
     }
 

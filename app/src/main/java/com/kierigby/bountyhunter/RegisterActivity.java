@@ -29,7 +29,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     public void addListenerToArrow() {
-        mbackButton = findViewById(R.id.image_arrow_button);
+        mbackButton = findViewById(R.id.backFromStats);
 
         mbackButton.setOnClickListener(new View.OnClickListener() {
             @Override
