@@ -35,6 +35,13 @@ public class StatsActivity extends AppCompatActivity {
         mStatName.add("Games Won");
         mActualStat.add("-");
 
+        mStatName.add("Total Games Played");
+        mActualStat.add("-");
+
+        mStatName.add("Total Distance Travelled");
+        mActualStat.add("-");
+
+
         initRecyclerView();
     }
 
