@@ -13,6 +13,9 @@ import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withHint;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static com.kierigby.bountyhunter.CustomMatchers.withBackground;
+import static com.kierigby.bountyhunter.CustomMatchers.withDrawableId;
+
 
 @RunWith(AndroidJUnit4.class)
 public class NewPasswordActivityTest {
@@ -29,6 +32,12 @@ public class NewPasswordActivityTest {
     public void checkTextFields() {
         onView(withId(R.id.etNewPassword)).perform(typeText("Password1"));
         onView(withId(R.id.etConfirmNewPassword)).perform(typeText("Password1"));
+    }
+
+    @Test
+    public void checkCorrectDrawable() {
+        onView(withId(R.id.image_top)).check(matches(withDrawableId(R.drawable.lock)));
+        onView(withId(R.id.backFromSetNewPass)).check(matches(withBackground(R.drawable.keyboard_backspace)));
     }
 
 }
