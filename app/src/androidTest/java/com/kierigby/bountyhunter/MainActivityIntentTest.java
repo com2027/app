@@ -18,7 +18,7 @@ import static androidx.test.espresso.intent.matcher.IntentMatchers.hasComponent;
 public class MainActivityIntentTest {
 
     @Rule
-    public IntentsTestRule<MainActivity> intentsTestRule = new IntentsTestRule<>(MainActivity.class);
+    public IntentsTestRule<MainActivity> mainActivityIntentsTestRule = new IntentsTestRule<>(MainActivity.class);
 
     @Test
     public void checkRegisterBtn() {
