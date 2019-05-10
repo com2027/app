@@ -27,11 +27,11 @@ public class LoggedInActivityTest {
 
     }
 
-
-
     @Test
-    public void checkCorrectDrawables() {
-        onView(withId(R.id.ivLogo)).check(matches(withDrawableId(R.drawable.logo)));
-
+    public void checkClickableButtons() {
+        onView(withId(R.id.tvCreateGame)).check(matches(isClickable()));
+        onView(withId(R.id.tvGameHistory)).check(matches(isClickable()));
+        onView(withId(R.id.tvGameRules)).check(matches(isClickable()));
+        onView(withId(R.id.tvMyFriends)).check(matches(isClickable()));
     }
 }

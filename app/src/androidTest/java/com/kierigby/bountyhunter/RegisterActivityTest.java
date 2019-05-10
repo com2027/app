@@ -42,4 +42,13 @@ public class RegisterActivityTest {
         onView(withId(R.id.confirmPasswordEditText)).perform(typeText("Password1"));
     }
 
+    @Test
+    public void checkBackArrow() {
+
+        //onView(withId(R.id.createAccountBtn)).check(matches(isClickable()));
+        //onView(withId(R.id.backFromStats)).perform(click());
+        //intended(hasClassName(com.kierigby.bountyhunter.MainActivity.class);
+    }
+
+
 }
